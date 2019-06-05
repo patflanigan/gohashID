@@ -3,13 +3,13 @@ Identify a hash type.
 
 
 gohashID is written in Go. 
-It takes a hash, calculates the length, and compares the length against the `hashcat example hashes <https://hashcat.net/wiki/doku.php?id=example_hashes>`.
+It takes a hash, calculates the length, and compares the length against the [hashcat example hashes](https://hashcat.net/wiki/doku.php?id=example_hashes)
 
 *Notes: 
--Hash is provided in a file to clean up whitespace and prevent interpolation.
--Only 1 hash can be provided at a time in a file. 
--Remove any usernames, domain information, etc. from the raw hash provided. This tool compares hashes by length so usernames with varying length sizes will not match the examples in hashcatexamples.csv
--The next upgrade will address some of these limitations.
+..*Hash is provided in a file to clean up whitespace and prevent interpolation.
+..*Only 1 hash can be provided at a time in a file. 
+..*Remove any usernames, domain information, etc. from the raw hash provided. This tool compares hashes by length so usernames with varying length sizes will not match the examples in hashcatexamples.csv
+..*The next upgrade will address some of these limitations.
 
 Usage
 ------------
