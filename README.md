@@ -1,5 +1,4 @@
 # gohashID
-=========================
 Identify a hash type.
 
 
@@ -30,7 +29,7 @@ hashcatexamples.csv file is required
 +===========================+=======================================================+
 | INPUT                     | input to analyze (default: STDIN)                     |
 +---------------------------+-------------------------------------------------------+
-| -file         		    | inpute file with hash <<Filename>> [default: hash.txt]|  			        |
+| -file         	    | inpute file with hash <<Filename>> [default: hash.txt]|
 +---------------------------+-------------------------------------------------------+
 | -h, --help                | show help message and exit                            |
 +---------------------------+-------------------------------------------------------+
@@ -38,8 +37,6 @@ hashcatexamples.csv file is required
 
 Screenshot
 ----------
-
-.. code:: console
 
     $ go run gohashID.go -file hash.txt
 	gohashID v0.6          Pat Flanigan
