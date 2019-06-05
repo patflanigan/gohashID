@@ -25,6 +25,13 @@ env GOOS=linux GOARCH=amd64 go build -v gohashID.go
 hashcatexamples.csv file is required
 
 
+|Parameter     |Description  |
+|-----------|-------------------------------------------------------|
+|-file      |inpute file with hash <<Filename>> [default: hash.txt] |
+|-h, --help |show help message and exit                             |
+
+
+
 Screenshot
 ----------
 
